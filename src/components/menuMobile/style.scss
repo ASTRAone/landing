@@ -1,0 +1,70 @@
+.menu-mobile {
+    position: relative;
+
+    &__visible {
+        display: flex;
+    }
+
+    &__header {
+        display: flex;
+        margin-left: 43px;
+        align-items: center;
+        color: #F1F1F1;
+        cursor: pointer;
+        width: fit-content;
+    }
+
+    &__text {
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-left: 10px;
+    }
+
+    &__icon {
+        font-size: 16px;
+    }
+}
+
+.mobile-items {
+    top: 0;
+    position: absolute;
+    width: 80%;
+    background: #d2d8cf;
+    display: none;
+    z-index: 1;
+
+    &__icon {
+        cursor: pointer;
+        position: absolute;
+        top: 21px;
+        right: 20px;
+        font-size: 25px;
+        color: #f1f1ec;
+    }
+
+    &__item {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+    }
+
+    &__item > a {
+        width: auto;
+        font-size: 24px;
+        color: #F1F1F1;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 10px;
+        width: fit-content;
+        cursor: pointer;
+    }
+
+    &__item > a:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.mobile-items.visible {
+    display: block;
+}

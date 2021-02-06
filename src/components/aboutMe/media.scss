@@ -1,0 +1,49 @@
+@media(max-width: 1500px) {
+    .about-me {
+        display: block;
+    }
+
+    .about-me__img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .about-me__our {
+        margin: auto;
+        padding-top: 70px;
+    }
+}
+
+@media(max-width: 771px) {
+    .about-me__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-me__our {
+        margin-left: 53px;
+        margin-right: 37px;
+    }
+}
+
+@media(max-width: 540px) {
+    .about-me__text {
+        line-height: 2.0em;
+    }
+}
+
+@media(max-width: 420px) {
+    .about-me__text {
+        margin-bottom: 0;
+    }
+
+    .about-me__text_last {
+        display: none;
+    }
+}
+
+@media(max-width: 350px) {
+    .about-me__title {
+        font-size: 34px;
+    }
+}

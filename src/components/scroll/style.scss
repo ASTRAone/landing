@@ -1,0 +1,17 @@
+.scroll {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+
+    &__text {
+        color: #F1F1F1;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    &__img {
+        width: 32px;
+        height: 32px;
+    }
+}

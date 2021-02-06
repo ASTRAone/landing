@@ -1,0 +1,28 @@
+@media(max-width: 920px) {
+    .menu__item.header-item {
+        margin-right: 40px;
+        font-size: 20px;
+    }
+
+    .menu__item.header-item:last-child {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 771px) {
+    .menu__item.footer-item {
+        font-size: 20px;
+        margin-right: 50px;
+    }
+
+    .menu__item.footer-item:last-child {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 700px) {
+    .container-header {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

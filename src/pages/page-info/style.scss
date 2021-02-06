@@ -1,0 +1,54 @@
+// Services
+
+.container-header {
+    margin-left: 66px;
+    margin-right: 66px;
+}
+
+.container-footer {
+    margin-left: 66px;
+    margin-right: 66px;
+}
+
+// ====================
+
+.page-blog {
+    max-width: 1920px;
+    height: auto;
+}
+
+.blog-header {
+    background: url('../../images/header-img.png') no-repeat center top / cover;
+
+    &__menu {
+        padding-top: 40px;
+    }
+
+    &__scroll {
+        margin-top: 896px;
+        padding-bottom: 50px;
+    }
+
+    &__menu.mobile {
+        padding-bottom: 207px;
+        display: none;
+    }
+}
+
+.blog-footer {
+
+    &__menu {
+        padding-top: 40px;
+        margin-bottom: 75px;
+    }
+
+    &__about {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 80px;
+    }
+
+    &__scroll {
+        margin-bottom: 50px;
+    }
+}

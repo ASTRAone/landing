@@ -1,0 +1,40 @@
+.about-me {
+    display: flex;
+    align-items: center;
+
+    &__img {
+        width: 771px;
+        height: 770px;
+        margin-right: 52px;
+    }
+
+    &__our {    
+        max-width: 680px;
+    }
+    
+    &__title {
+        text-transform: uppercase;
+        letter-spacing: 5.6px;
+        color: #202020;
+        font-size: 40px;
+        margin-bottom: 81px;
+    }
+
+    &__text {
+        font-size: 24px;
+        color: #202020;
+        line-height: 1.7em;
+        margin-bottom: 20px;
+    }
+
+    &__text_last {
+        margin-bottom: 0;
+    }
+
+    &__title-bottom {
+        color: #202020;
+        font-size: 25px;
+        margin-top: 66px;
+    }
+}
+
